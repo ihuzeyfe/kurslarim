@@ -4,6 +4,8 @@ import axios from "axios";
 import Courses from "./Courses";
 import Loading from "./Loading";
 
+//json-server --watch db.json
+
 function App() {
   const [courses, setCourses] = useState([]);
   const [loading, setLoading] = useState(true);
